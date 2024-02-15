@@ -6,8 +6,8 @@ This is a training project made while following [Francesco Ciulla](https://www.y
 
 *'compose.yaml'* allows for creation of 3 main containers:
 1. db - serving a PostgreSQL database
-2. flaskapp - serving as backend API allowing data transfer with the database
-3. nextapp - contenerized next.js app implementing UI for interaction with the flask backen
+2. flaskapp - serving as backend API allowing for data transfer with the database
+3. nextapp - contenerized next.js app implementing UI for interaction with the flask backend
 
 ## Usage
 
@@ -15,7 +15,7 @@ In order to run the application you need to build the *compose.yaml* file
 ```bash
 docker compose up -d --build 
 ```
-When the build finishes, all containers should be working and main page should be visible at *'localhost:3000'*. 
+When the build finishes, all containers should be working and main page should be visible at *localhost:3000*. 
 
 Keep in mind that this project doesn't implement a lot of data security features at flask API endpoints.
 
